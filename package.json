@@ -1,0 +1,29 @@
+{
+  "name": "backend101",
+  "version": "1.0.0",
+  "description": "a tutorial for backend",
+  "homepage": "https://github.com/JustAjibola/Backend101#readme",
+  "bugs": {
+    "url": "https://github.com/JustAjibola/Backend101/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustAjibola/Backend101.git"
+  },
+  "license": "ISC",
+  "author": "Ajibola",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "app": "^0.1.0",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.1.5",
+    "nodemon": "^3.1.11"
+  }
+}
