@@ -12,12 +12,13 @@
   },
   "license": "ISC",
   "author": "Ajibola",
-  "type": "module",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
+
   "dependencies": {
     "app": "^0.1.0",
     "dotenv": "^17.2.3",

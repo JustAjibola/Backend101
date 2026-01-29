@@ -1,7 +1,6 @@
 import dotevnv from 'dotenv';
 import connectDB from './config/database.js';
 import app from './app.js';
-import e from 'express';
 
 dotevnv.config({
     path: './.env'
